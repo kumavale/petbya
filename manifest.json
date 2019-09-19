@@ -1,0 +1,16 @@
+{
+    "name": "petbya",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Press enter key to block youtube ad",
+    "icons": {
+        "128":  "icons/128.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://www.youtube.com/*"],
+        "js": [
+            "content.js"
+        ],
+        "all_frames": true
+    }]
+}
