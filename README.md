@@ -7,6 +7,11 @@ Press Enter key To Block [Youtube](https://youtube.com) Ads
 ## Install
 - [Chrome extension](https://chrome.google.com/webstore/detail/petbya/bhgaepibgjklgdmcjkaknahhfpplklde)
 
+## Build
+```
+npx webpack --mode production
+```
+
 ## Usage
 Press enter key when popup ads.  
 

@@ -18,7 +18,7 @@ window.addEventListener('keydown', function(e) {
         // Ads that cannot be skipped
         let v_elem: HTMLVideoElement = document.getElementsByClassName("html5-main-video")[0] as HTMLVideoElement;
         if (v_elem) {
-            if (document.getElementsByClassName("ytp-ad-player-overlay-instream-info")[0]) {
+            if (document.getElementsByClassName("ytp-ad-text")[0]) {
                 v_elem.currentTime = 99999;
             }
         }
