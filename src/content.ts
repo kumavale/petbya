@@ -12,6 +12,7 @@ window.addEventListener('keydown', function(e) {
         ad_elem.forEach(element => {
             if (element) {
                 element.click();
+                e.preventDefault();
             }
         });
 
@@ -20,6 +21,7 @@ window.addEventListener('keydown', function(e) {
         if (v_elem) {
             if (document.getElementsByClassName("ytp-ad-text")[0]) {
                 v_elem.currentTime = 99999;
+                e.preventDefault();
             }
         }
     }
