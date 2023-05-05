@@ -1,8 +1,6 @@
 
 window.addEventListener('keydown', function(e) {
-    const key_Enter = 13;
-
-    if(e.keyCode == key_Enter) {
+    if (e.key == "Enter") {
         let ad_elem: HTMLElement[] = [
             // Telop-style Ads
             document.getElementsByClassName("ytp-ad-overlay-close-container")[0] as HTMLElement,
