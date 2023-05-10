@@ -7,7 +7,10 @@
         "128":  "icons/128.png"
     },
     "content_scripts": [{
-        "matches": ["https://www.youtube.com/*"],
+        "matches": [
+            "https://www.youtube.com/*",
+            "https://music.youtube.com/*"
+        ],
         "js": [
             "js/content.js"
         ],
